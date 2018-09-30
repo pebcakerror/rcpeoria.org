@@ -9374,10 +9374,10 @@
   font-family: Nunito; }
 
 .font_first {
-  font-family: Nunito Sans; }
+  font-family: Nunito; }
 
 .font_second {
-  font-family: Nunito; }
+  font-family: "Exo 2"; }
 
 .uppercase {
   text-transform: uppercase; }
@@ -9552,6 +9552,13 @@
     .dropbox_color.link:hover, .dropbox_color.link:focus {
       color: #046bbf; }
 
+.gold {
+  color: #cc9933; }
+  .gold.link {
+    transition: all 0.2s; }
+    .gold.link:hover, .gold.link:focus {
+      color: #cc8800; }
+
 /* background-colors */
 .bg_white {
   background: #ffffff; }
@@ -9601,6 +9608,10 @@
   background: #18c967; }
 .bg_green_hover {
   background: #0cb658; }
+.bg_gold {
+  background: #cc9933; }
+.bg_gold_hover {
+  background: #cc8800; }
 
 .radius4 {
   -webkit-border-radius: 4px;
@@ -9835,7 +9846,7 @@
     color: #ffffff;
     background-color: #2b48e7;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.blue:hover, .btn.blue:focus {
       background-color: #102dce; }
@@ -9843,7 +9854,7 @@
     color: #ffffff;
     background-color: #2c3e50;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.dark_blue:hover, .btn.dark_blue:focus {
       background-color: #4a6580; }
@@ -9851,7 +9862,7 @@
     color: #ffffff;
     background-color: #2e4da7;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.facebook_color:hover, .btn.facebook_color:focus {
       background-color: #173488; }
@@ -9859,7 +9870,7 @@
     color: #ffffff;
     background-color: #0aa0f5;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.twitter_color:hover, .btn.twitter_color:focus {
       background-color: #0688d2; }
@@ -9867,7 +9878,7 @@
     color: #ffffff;
     background-color: #ff0000;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.red:hover, .btn.red:focus {
       background-color: #e10000; }
@@ -9875,7 +9886,7 @@
     color: #ffffff;
     background-color: #18c967;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.green:hover, .btn.green:focus {
       background-color: #0cb658; }
@@ -9883,7 +9894,7 @@
     color: #2c3e50;
     background-color: #ffffff;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.white:hover, .btn.white:focus {
       background-color: #eeeeee; }
@@ -9909,11 +9920,13 @@
       border-color: #0688d2; }
     .btn.white.border_facebook_color:hover, .btn.white.border_facebook_color:focus {
       border-color: #173488; }
+    .btn.white.border_gold:hover, .btn.white.border_gold:focus {
+      border-color: #cc9933; }
   .btn.light_gray {
     color: #2c3e50;
     background-color: #e7e7e7;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.light_gray:hover, .btn.light_gray:focus {
       background-color: #d7d7d7; }
@@ -9921,7 +9934,7 @@
     color: #ffffff;
     background-color: #000000;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.black:hover, .btn.black:focus {
       background-color: #272727; }
@@ -9929,7 +9942,7 @@
     color: #ffffff;
     background-color: #ea4c89;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.pink:hover, .btn.pink:focus {
       background-color: #e41867; }
@@ -9937,7 +9950,7 @@
     color: #ffffff;
     background-color: transparent;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.transparent_white:hover, .btn.transparent_white:focus {
       border-color: rgba(255, 255, 255, 0.8); }
@@ -9945,13 +9958,13 @@
     color: #000000;
     background-color: transparent;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
   .btn.transparent_blue {
     color: #2b48e7;
     background-color: transparent;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.transparent_blue:hover, .btn.transparent_blue:focus {
       background-color: #2b48e7;
@@ -9960,7 +9973,7 @@
     color: #2c3e50;
     background-color: transparent;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.transparent_dark_blue:hover, .btn.transparent_dark_blue:focus {
       background-color: #2c3e50;
@@ -9969,7 +9982,7 @@
     color: #ff0000;
     background-color: transparent;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.transparent_red:hover, .btn.transparent_red:focus {
       background-color: #ff0000;
@@ -9978,7 +9991,7 @@
     color: #18c967;
     background-color: transparent;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.transparent_green:hover, .btn.transparent_green:focus {
       background-color: #18c967;
@@ -9987,7 +10000,7 @@
     color: #ea4c89;
     background-color: transparent;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.transparent_pink:hover, .btn.transparent_pink:focus {
       background-color: #ea4c89;
@@ -9996,7 +10009,7 @@
     color: #0aa0f5;
     background-color: transparent;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.transparent_twitter_color:hover, .btn.transparent_twitter_color:focus {
       background-color: #0aa0f5;
@@ -10005,7 +10018,7 @@
     color: #2e4da7;
     background-color: transparent;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.transparent_facebook_color:hover, .btn.transparent_facebook_color:focus {
       background-color: #2e4da7;
@@ -10014,11 +10027,20 @@
     color: #e7e7e7;
     background-color: transparent;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito;
     font-weight: 400; }
     .btn.transparent_light_gray:hover, .btn.transparent_light_gray:focus {
       background-color: #e7e7e7;
       color: #2c3e50; }
+  .btn.transparent_gold {
+    color: #cc9933;
+    background-color: transparent;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 400; }
+    .btn.transparent_gold:hover, .btn.transparent_gold:focus {
+      background-color: #cc9933;
+      color: #ffffff; }
   .btn.font12 {
     font-size: 12px; }
   .btn.font14 {
@@ -10114,6 +10136,16 @@
   .btn.border {
     border-width: 1px;
     border-style: solid; }
+    .btn.border1 {
+      border-width: 1px; }
+    .btn.border2 {
+      border-width: 2px; }
+    .btn.border3 {
+      border-width: 3px; }
+    .btn.border3 {
+      border-width: 3px; }
+    .btn.border4 {
+      border-width: 4px; }
   .btn.border_light_gray {
     border-color: #e7e7e7; }
   .btn.border_medium_gray {
@@ -10138,6 +10170,8 @@
     border-color: #0aa0f5; }
   .btn.border_facebook_color {
     border-color: #2e4da7; }
+  .btn.border_gold {
+    border-color: #cc9933; }
   .btn.semibold {
     font-weight: 600; }
 
@@ -10378,6 +10412,8 @@
     border-color: #0aa0f5; }
   .input.focus_facebook_color:focus {
     border-color: #2e4da7; }
+  .input.focus_gold:focus {
+    border-color: #cc9933; }
   .input.white {
     color: #ffffff; }
     .input.white:focus {
@@ -10530,7 +10566,7 @@ input[type=radio]:checked + label.radio.check_blue:before {
 
 /* Other elements */
 .nav_logo {
-  font-family: Nunito;
+  font-family: "Exo 2";
   font-size: 20px;
   color: #2c3e50;
   font-weight: 400; }
@@ -10695,6 +10731,10 @@ input[type=radio]:checked + label.radio.check_blue:before {
   background: #18c967; }
 .hr.green_hover {
   background: #0cb658; }
+.hr.gold {
+  background: #cc9933; }
+.hr.gold_hover {
+  background: #cc8800; }
 
 /* Dropdown menu */
 .dropdown.show .dropdown-toggle:after {
@@ -10816,7 +10856,7 @@ input[type=radio]:checked + label.radio.check_blue:before {
 
 /* Blocks layout */
 body {
-  font-family: Nunito Sans;
+  font-family: Nunito;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -10876,7 +10916,7 @@ h1 {
   font-size: 82px;
   line-height: 92px;
   font-weight: 300;
-  font-family: Nunito; }
+  font-family: "Exo 2"; }
 
 h1, h2 {
   -webkit-margin-before: 0;
@@ -11793,7 +11833,7 @@ b, strong {
     .feature_48 header {
       background-image: url(../i/feature_48_bg_2x.jpg); } }
 .feature_48 article h1, .feature_48 article h2, .feature_48 article h3, .feature_48 article h4, .feature_48 article h5, .feature_48 article h6 {
-  font-family: Nunito;
+  font-family: "Exo 2";
   font-weight: 300; }
 .feature_48 article h2 {
   font-size: 42px;
@@ -11848,7 +11888,7 @@ b, strong {
 .feature_49 .main h2, .feature_49 .main h3, .feature_49 .main h4, .feature_49 .main h5, .feature_49 .main h6 {
   margin-top: 40px;
   font-weight: 300;
-  font-family: Nunito; }
+  font-family: "Exo 2"; }
 .feature_49 .main h2 {
   font-size: 36px;
   line-height: 46px;
@@ -12247,11 +12287,11 @@ b, strong {
 
 /* Call to Action 25 */
 .call_to_action_25 {
-  background: #141414 url(../i/call_to_action_25_bg.jpg) no-repeat 50% 50%;
+  background: #141414 url(../i/rcband.jpg) no-repeat 50% 50%;
   background-size: cover; }
   @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .call_to_action_25 {
-      background-image: url(../i/call_to_action_25_bg_2x.jpg); } }
+      background-image: url(../i/rcband@2x.jpg); } }
   .call_to_action_25 .video {
     height: 360px; }
     .call_to_action_25 .video .poster {

@@ -2077,10 +2077,10 @@ b, strong{
 /* Call to Action 25 */
 
 .call_to_action_25{
-	background:$dark_gray url(../i/call_to_action_25_bg.jpg) no-repeat 50% 50%;
+	background:$dark_gray url(../i/rcband.jpg) no-repeat 50% 50%;
 	background-size:cover;
 	@media#{$retina}{
-		background-image:url(../i/call_to_action_25_bg_2x.jpg);
+		background-image:url(../i/rcband@2x.jpg);
 	}
 	.video{
 		height:360px;

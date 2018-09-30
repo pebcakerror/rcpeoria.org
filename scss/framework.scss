@@ -439,6 +439,16 @@ $i: 12;
 		}
 	}
 }
+	
+.gold{
+	color:$gold;
+	&.link{
+		transition:all 0.2s;
+		&:hover, &:focus{
+			color:$gold_hover;
+		}
+	}
+}
 
 /* background-colors */
 
@@ -514,6 +524,12 @@ $i: 12;
 	}
 	&_green_hover{
 		background:$green_hover;
+	}
+	&_gold{
+		background:$gold;
+	}
+	&_gold_hover{
+		background:$gold_hover;
 	}
 }
 
@@ -823,6 +839,11 @@ $i: 4;
 				border-color:$facebook_color_hover;
 			}
 		}
+		&.border_gold{
+			&:hover, &:focus{
+				border-color:$gold;
+			}
+		}
 	}
 	&.light_gray{
 		color:$dark_blue;
@@ -959,6 +980,17 @@ $i: 4;
 			color:$dark_blue;
 		}
 	}
+	&.transparent_gold{
+		color:$gold;
+		background-color:transparent;
+		text-align:center;
+		font-family:$base_font;
+		font-weight:$normal;
+		&:hover, &:focus{
+			background-color:$gold;
+			color:$white;
+		}
+	}
 	/* other font sizes */
 	$i: 12;
 	@while $i < 103 {
@@ -973,6 +1005,21 @@ $i: 4;
 	&.border{
 		border-width:1px;
 		border-style:solid;
+		&1{
+			border-width:1px;
+		}
+		&2{
+			border-width:2px;
+		}
+		&3{
+			border-width:3px;
+		}
+		&3{
+			border-width:3px;
+		}
+		&4{
+			border-width:4px;
+		}
 	}
 	&.border_light_gray{
 		border-color:$light_gray;
@@ -1009,6 +1056,9 @@ $i: 4;
 	}
 	&.border_facebook_color{
 		border-color:$facebook_color;
+	}
+	&.border_gold{
+		border-color:$gold;
 	}
 	
 	/* Other */
@@ -1292,6 +1342,11 @@ $i: 4;
 		&_facebook_color{
 			&:focus{
 				border-color:$facebook_color;
+			}
+		}
+		&_gold{
+			&:focus{
+				border-color:$gold;
 			}
 		}
 	}
@@ -1631,6 +1686,12 @@ input[type=radio]:checked + label.radio.check_blue:before{
 	}
 	&.green_hover{
 		background:$green_hover;
+	}
+	&.gold{
+		background:$gold;
+	}
+	&.gold_hover{
+		background:$gold_hover;
 	}
 }
 
