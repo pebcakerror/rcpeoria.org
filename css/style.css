@@ -12661,6 +12661,29 @@ b, strong {
       @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
         .song_release .video .poster {
           background-image: url(../i/demo_images/call_to_action_25_poster_2x.jpg); } }
+  .song_release .play_video {
+    position: relative;
+    height: 120px;
+    line-height: 120px;
+    width: 120px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border-color: #ffffff;
+    font-size: 35px;
+    color: #ffffff;
+    background-color: transparent;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 400; }
+    .song_release .play_video .fa, .song_release .play_video .fas, .song_release .play_video .far, .song_release .play_video .fab {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-25%, -50%); }
+    .song_release .play_video:hover, .song_release .play_video:focus {
+      border-color: #cc9933;
+      color: #cc9933; }
 
 /* Blocks adaptive layout */
 /* Smaller than 1366px */

@@ -2674,4 +2674,32 @@ b, strong{
 			}
 		}
 	}
+
+	.play_video{
+		position:relative;
+		height:120px;
+		line-height:120px;
+		width:120px;
+		-webkit-border-radius:50%;
+		-moz-border-radius:50%;
+		border-radius:50%;
+		border-color:$white;
+		font-size:35px;
+		.fa, .fas, .far, .fab{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-25%,-50%);
+		}
+
+		color:$white;
+		background-color:transparent;
+		text-align:center;
+		font-family:$base_font;
+		font-weight:$normal;
+		&:hover, &:focus{
+			border-color: $gold;
+			color: $gold;
+		}
+	}
 }
