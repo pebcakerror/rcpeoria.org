@@ -235,20 +235,23 @@ $i: 12;
 }
 
 .spacing{
-	&10{
+	&1{
 		letter-spacing:1px;
 	}
-	&15{
+	&1_5{
 		letter-spacing:1.5px;
 	}
-	&17{
+	&1_7{
 		letter-spacing:1.7px;
 	}
-	&20{
+	&2{
 		letter-spacing:2px;
 	}
-	&25{
+	&2_5{
 		letter-spacing:2.5px;
+	}
+	&20{
+		letter-spacing: 20px;
 	}
 }
 

@@ -9414,16 +9414,18 @@
 .heavy {
   font-weight: 900; }
 
-.spacing10 {
+.spacing1 {
   letter-spacing: 1px; }
-.spacing15 {
+.spacing1_5 {
   letter-spacing: 1.5px; }
-.spacing17 {
+.spacing1_7 {
   letter-spacing: 1.7px; }
-.spacing20 {
+.spacing2 {
   letter-spacing: 2px; }
-.spacing25 {
+.spacing2_5 {
   letter-spacing: 2.5px; }
+.spacing20 {
+  letter-spacing: 20px; }
 
 .opacity0 {
   opacity: 0; }
@@ -12645,6 +12647,21 @@ b, strong {
   .footer_8 .block_right a:hover, .footer_8 .block_right a:focus {
     border-color: #95a5a6; }
 
+/* RC Custom */
+.song_release {
+  background: #141414 url(../i/rcband.jpg) no-repeat 50% 50%;
+  background-size: cover; }
+  @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .song_release {
+      background-image: url(../i/rcband@2x.jpg); } }
+  .song_release .video {
+    height: 360px; }
+    .song_release .video .poster {
+      background-image: url(../i/demo_images/call_to_action_25_poster.jpg); }
+      @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+        .song_release .video .poster {
+          background-image: url(../i/demo_images/call_to_action_25_poster_2x.jpg); } }
+
 /* Blocks adaptive layout */
 /* Smaller than 1366px */
 @media (max-width: 1365.99px) {
@@ -15807,7 +15824,14 @@ b, strong {
 
   .showcase_7 h2 {
     font-size: 32px;
-    line-height: 42px; } }
+    line-height: 42px; }
+
+  .song_release h2 {
+    font-size: 60px;
+    line-height: 70px; }
+  .song_release h3 {
+    font-size: 40px;
+    line-height: 50px; } }
 /* Smaller than 500px */
 @media (max-width: 499.99px) {
   .header_9 form input {
@@ -16460,7 +16484,11 @@ b, strong {
     width: 100%; }
   .contact_6 form .btn {
     float: none;
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .song_release h2 {
+    margin-left: 10px;
+    letter-spacing: 10px; } }
 /* Smaller than 340px */
 @media (max-width: 339.99px) {
   .header_1 h1 {

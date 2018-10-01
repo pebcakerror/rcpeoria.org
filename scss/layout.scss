@@ -2655,3 +2655,23 @@ b, strong{
 		}
 	}
 }
+
+
+/* RC Custom */
+
+.song_release{
+	background:$dark_gray url(../i/rcband.jpg) no-repeat 50% 50%;
+	background-size:cover;
+	@media#{$retina}{
+		background-image:url(../i/rcband@2x.jpg);
+	}
+	.video{
+		height:360px;
+		.poster{
+			background-image:url(../i/demo_images/call_to_action_25_poster.jpg);
+			@media#{$retina}{
+				background-image:url(../i/demo_images/call_to_action_25_poster_2x.jpg);
+			}
+		}
+	}
+}

@@ -4748,6 +4748,17 @@
 			line-height:42px;
 		}
 	}
+
+	.song_release{
+		h2{
+			font-size: 60px;
+			line-height: 70px;
+		}
+		h3{
+			font-size: 40px;
+			line-height: 50px;
+		}
+	}
 	
 }
 
@@ -5858,6 +5869,14 @@
 				float:none;
 				margin-top:0;
 			}
+		}
+	}
+
+	.song_release{
+		h2{
+			margin-left: 10px;
+			letter-spacing: 10px;
+
 		}
 	}
 }
