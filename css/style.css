@@ -12656,11 +12656,8 @@ b, strong {
       background-image: url(../i/rcband@2x.jpg); } }
   .song_release .video {
     height: 360px; }
-    .song_release .video .poster {
-      background-image: url(../i/demo_images/call_to_action_25_poster.jpg); }
-      @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
-        .song_release .video .poster {
-          background-image: url(../i/demo_images/call_to_action_25_poster_2x.jpg); } }
+    .song_release .video video {
+      display: block; }
   .song_release .play_video {
     position: relative;
     height: 120px;

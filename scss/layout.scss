@@ -331,7 +331,7 @@ b, strong{
 				position:absolute;
 				left:0;
 				top:50%;
-				border-bottom:1px solid $light_gray;				
+				border-bottom:1px solid $light_gray;
 			}
 			span{
 				position:relative;
@@ -426,7 +426,7 @@ b, strong{
 			}
 			&.slick-active{
 				button{
-					background:$dark_blue;						
+					background:$dark_blue;
 				}
 			}
 		}
@@ -473,7 +473,7 @@ b, strong{
 		}
 	}
 	&.type1{
-		
+
 	}
 }
 
@@ -568,7 +568,7 @@ b, strong{
 		border:2px solid rgba(0,0,0,0.3);
 		transition:all 0.2s;
 		&.focused{
-			border:2px solid rgba(0,0,0,0.8);				
+			border:2px solid rgba(0,0,0,0.8);
 		}
 		button{
 			background:transparent;
@@ -647,7 +647,7 @@ b, strong{
 		border:1px solid rgba(255,255,255,0.3);
 		transition:all 0.2s;
 		&.focused{
-			border:1px solid rgba(255,255,255,0.8);				
+			border:1px solid rgba(255,255,255,0.8);
 		}
 		button{
 			background:transparent;
@@ -1321,7 +1321,7 @@ b, strong{
 			}
 			&.slick-active{
 				button{
-					background:$white;						
+					background:$white;
 				}
 			}
 		}
@@ -1671,7 +1671,7 @@ b, strong{
 				top:50%;
 				border-bottom:1px solid $medium_gray;
 				opacity:0.3;
-				
+
 			}
 			span{
 				position:relative;
@@ -2667,11 +2667,8 @@ b, strong{
 	}
 	.video{
 		height:360px;
-		.poster{
-			background-image:url(../i/demo_images/call_to_action_25_poster.jpg);
-			@media#{$retina}{
-				background-image:url(../i/demo_images/call_to_action_25_poster_2x.jpg);
-			}
+		video{
+			display: block;
 		}
 	}
 
