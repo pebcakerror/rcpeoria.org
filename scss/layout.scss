@@ -111,10 +111,10 @@ b, strong{
 /* Header 2 */
 
 .header_2{
-	background:#111111 url(../i/header_2_bg.jpg) no-repeat no-repeat 50% 50%;
+	background:#111111 url(../i/rcband.jpg) no-repeat no-repeat 50% 50%;
 	background-size:cover;
 	@media#{$retina}{
-		background-image:url(../i/header_2_bg_2x.jpg);
+		background-image:url(../i/rcband@2x.jpg);
 	}
 	.form2{
 		input{
@@ -1156,9 +1156,6 @@ b, strong{
 
 .feature_11{
 	overflow:hidden;
-	.bg{
-		bottom:0;
-	}
 }
 
 /* Feature 12 */
@@ -2465,6 +2462,11 @@ b, strong{
 /* Contact 8 */
 
 .contact_8{
+	background:$dark_gray url(../i/rcband_color.jpg) no-repeat 0% 15%;
+	background-size:cover;
+	@media#{$retina}{
+		background-image:url(../i/rcband_color@2x.jpg);
+	}
 	.google_map{
 		left:calc((100vw - 1170px) / 2);
 		right:0;
@@ -2697,6 +2699,27 @@ b, strong{
 		&:hover, &:focus{
 			border-color: $gold;
 			color: $gold;
+		}
+	}
+}
+
+
+
+
+
+.sermon{
+	background:$dark_gray url(../i/dark_grunge.jpg) no-repeat 50% 50%;
+	background-size:cover;
+	@media#{$retina}{
+		background-image:url(../i/dark_grunge@2x.jpg);
+	}
+	.video{
+		height:360px;
+		.poster{
+			background-image:url(../i/demo_images/call_to_action_25_poster.jpg);
+			@media#{$retina}{
+				background-image:url(../i/demo_images/call_to_action_25_poster_2x.jpg);
+			}
 		}
 	}
 }

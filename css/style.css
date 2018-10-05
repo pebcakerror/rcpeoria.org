@@ -9460,8 +9460,7 @@
   color: #ffffff;
   transition: all 0.2s; }
   .white.link:hover, .white.link:focus {
-    color: #ffffff;
-    opacity: 0.7; }
+    color: #cc9933; }
 
 .blue {
   color: #2b48e7; }
@@ -9892,8 +9891,16 @@
     font-weight: 400; }
     .btn.green:hover, .btn.green:focus {
       background-color: #0cb658; }
+  .btn.gold {
+    color: #ffffff;
+    background-color: #cc9933;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 400; }
+    .btn.gold:hover, .btn.gold:focus {
+      background-color: #cc8800; }
   .btn.white {
-    color: #2c3e50;
+    color: #141414;
     background-color: #ffffff;
     text-align: center;
     font-family: Nunito;
@@ -9955,7 +9962,11 @@
     font-family: Nunito;
     font-weight: 400; }
     .btn.transparent_white:hover, .btn.transparent_white:focus {
-      border-color: rgba(255, 255, 255, 0.8); }
+      border-color: #cc9933;
+      color: #cc9933; }
+    .btn.transparent_white.hover_fill_white:hover, .btn.transparent_white.hover_fill_white:focus {
+      background-color: #ffffff;
+      color: #cc9933; }
   .btn.transparent_black {
     color: #000000;
     background-color: transparent;
@@ -10043,6 +10054,10 @@
     .btn.transparent_gold:hover, .btn.transparent_gold:focus {
       background-color: #cc9933;
       color: #ffffff; }
+    .btn.transparent_gold.nohover:hover, .btn.transparent_gold.nohover:focus {
+      background-color: transparent;
+      color: #cc9933;
+      font-weight: 600; }
   .btn.font12 {
     font-size: 12px; }
   .btn.font14 {
@@ -10944,11 +10959,11 @@ b, strong {
 
 /* Header 2 */
 .header_2 {
-  background: #111111 url(../i/header_2_bg.jpg) no-repeat no-repeat 50% 50%;
+  background: #111111 url(../i/rcband.jpg) no-repeat no-repeat 50% 50%;
   background-size: cover; }
   @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .header_2 {
-      background-image: url(../i/header_2_bg_2x.jpg); } }
+      background-image: url(../i/rcband@2x.jpg); } }
   .header_2 .form2 input:focus {
     border-color: rgba(255, 255, 255, 0.7); }
 
@@ -11632,8 +11647,6 @@ b, strong {
 /* Feature 11 */
 .feature_11 {
   overflow: hidden; }
-  .feature_11 .bg {
-    bottom: 0; }
 
 /* Feature 12 */
 .feature_12 {
@@ -12545,10 +12558,16 @@ b, strong {
   width: calc(100% - 100px); }
 
 /* Contact 8 */
-.contact_8 .google_map {
-  left: calc((100vw - 1170px) / 2);
-  right: 0;
-  top: 0; }
+.contact_8 {
+  background: #141414 url(../i/rcband_color.jpg) no-repeat 0% 15%;
+  background-size: cover; }
+  @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .contact_8 {
+      background-image: url(../i/rcband_color@2x.jpg); } }
+  .contact_8 .google_map {
+    left: calc((100vw - 1170px) / 2);
+    right: 0;
+    top: 0; }
 
 /* Contact 9 */
 .contact_9 .map_overlay, .contact_9 .google_map {
@@ -12681,6 +12700,20 @@ b, strong {
     .song_release .play_video:hover, .song_release .play_video:focus {
       border-color: #cc9933;
       color: #cc9933; }
+
+.sermon {
+  background: #141414 url(../i/dark_grunge.jpg) no-repeat 50% 50%;
+  background-size: cover; }
+  @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .sermon {
+      background-image: url(../i/dark_grunge@2x.jpg); } }
+  .sermon .video {
+    height: 360px; }
+    .sermon .video .poster {
+      background-image: url(../i/demo_images/call_to_action_25_poster.jpg); }
+      @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+        .sermon .video .poster {
+          background-image: url(../i/demo_images/call_to_action_25_poster_2x.jpg); } }
 
 /* Blocks adaptive layout */
 /* Smaller than 1366px */
@@ -13056,6 +13089,9 @@ b, strong {
         margin-top: 20px; }
     .feature_10 .video {
       margin-top: 50px; }
+
+  .feature_11 .left60 {
+    margin-left: 0px; }
 
   .feature_13 {
     padding-top: 80px; }
@@ -13569,20 +13605,22 @@ b, strong {
     .feature_9 .hr {
       margin: 50px 0; }
 
-  .feature_11 .container {
+  .feature_11 {
     padding-top: 80px;
     padding-bottom: 80px; }
-  .feature_11 .bg {
-    max-width: 100%;
-    position: static;
-    margin: 0 auto; }
-  .feature_11 .inner {
-    margin-top: 0;
-    max-width: 100%;
-    text-align: center; }
-  .feature_11 .block .text {
-    margin-left: auto;
-    margin-right: auto; }
+    .feature_11 .bg {
+      max-width: 100%;
+      position: static;
+      margin: 0 auto; }
+    .feature_11 .inner {
+      margin-top: 0;
+      max-width: 100%;
+      text-align: center; }
+    .feature_11 .block .text {
+      margin-left: auto;
+      margin-right: auto; }
+    .feature_11 h2 {
+      margin-top: 30px; }
 
   .feature_12 .block {
     padding: 0 20px;
@@ -15024,7 +15062,18 @@ b, strong {
 
   .footer_10 {
     padding-top: 80px;
-    padding-bottom: 30px; } }
+    padding-bottom: 30px; }
+
+  .footer_13 .socials {
+    display: block;
+    padding-top: 30px; }
+
+  .sermon {
+    padding: 80px 0 30px 0; }
+    .sermon h2 {
+      margin-top: 5px;
+      font-size: 32px;
+      line-height: 42px; } }
 /* Smaller than 640px */
 @media (max-width: 639.99px) {
   .video_popup iframe {
