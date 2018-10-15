@@ -9694,6 +9694,25 @@
   -moz-border-radius: 50%;
   border-radius: 50%; }
 
+.noradius {
+  border-radius: 0px; }
+
+.noradius_top {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px; }
+
+.noradius_bottom {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px; }
+
+.noradius_left {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px; }
+
+.noradius_right {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px; }
+
 .relative {
   position: relative; }
 
@@ -11076,11 +11095,11 @@ b, strong {
 
 /* Header 12 */
 .header_12 {
-  background: #0f0f10 url(../i/header_12_bg.jpg) no-repeat 50% 50%;
+  background: #141414 url(../i/stock_kids.jpg) no-repeat 50% 50%;
   background-size: cover; }
   @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .header_12 {
-      background-image: url(../i/header_12_bg_2x.jpg); } }
+      background-image: url(../i/stock_kids@2x.jpg); } }
   .header_12 .bg {
     position: absolute;
     top: 0px;

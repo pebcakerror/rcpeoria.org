@@ -550,6 +550,25 @@ $i: 4;
 	-moz-border-radius:50%;
 	border-radius:50%;
 }
+.noradius{
+	border-radius:0px;
+}
+.noradius_top{
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+}
+.noradius_bottom{
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.noradius_left{
+	border-top-left-radius:0px;
+	border-bottom-left-radius:0px;
+}
+.noradius_right{
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
 
 .relative{
 	position:relative;

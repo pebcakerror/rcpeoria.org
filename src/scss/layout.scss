@@ -286,10 +286,10 @@ b, strong{
 /* Header 12 */
 
 .header_12{
-	background:#0f0f10 url(../i/header_12_bg.jpg) no-repeat 50% 50%;
+	background:$dark_gray url(../i/stock_kids.jpg) no-repeat 50% 50%;
 	background-size:cover;
 	@media#{$retina}{
-		background-image:url(../i/header_12_bg_2x.jpg);
+		background-image:url(../i/stock_kids@2x.jpg);
 	}
 	.bg{
 		position:absolute;
