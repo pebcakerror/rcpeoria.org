@@ -307,12 +307,11 @@ $i: 12;
 	transition:all 0.2s;
 	&.link{
 		&:hover, &:focus{
-			color:$white;
-			opacity:0.7;
+			color:$gold;
 		}
 	}
 }
-	
+
 .blue{
 	color:$blue;
 	&.link{
@@ -442,7 +441,7 @@ $i: 12;
 		}
 	}
 }
-	
+
 .gold{
 	color:$gold;
 	&.link{
@@ -550,6 +549,25 @@ $i: 4;
 	-webkit-border-radius:50%;
 	-moz-border-radius:50%;
 	border-radius:50%;
+}
+.noradius{
+	border-radius:0px;
+}
+.noradius_top{
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+}
+.noradius_bottom{
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.noradius_left{
+	border-top-left-radius:0px;
+	border-bottom-left-radius:0px;
+}
+.noradius_right{
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
 }
 
 .relative{
@@ -778,8 +796,18 @@ $i: 4;
 			background-color:$green_hover;
 		}
 	}
+	&.gold{
+		color:$white;
+		background-color:$gold;
+		text-align:center;
+		font-family:$base_font;
+		font-weight:$normal;
+		&:hover, &:focus{
+			background-color:$gold_hover;
+		}
+	}
 	&.white{
-		color:$dark_blue;
+		color:$dark_gray;
 		background-color:$white;
 		text-align:center;
 		font-family:$base_font;
@@ -878,120 +906,139 @@ $i: 4;
 			background-color:$pink_hover;
 		}
 	}
-	&.transparent_white{
-		color:$white;
-		background-color:transparent;
-		text-align:center;
-		font-family:$base_font;
-		font-weight:$normal;
-		&:hover, &:focus{
-			border-color:rgba(255,255,255,0.8);
-		}
-	}
-	&.transparent_black{
-		color:$black;
-		background-color:transparent;
-		text-align:center;
-		font-family:$base_font;
-		font-weight:$normal;
-	}
-	&.transparent_blue{
-		color:$blue;
-		background-color:transparent;
-		text-align:center;
-		font-family:$base_font;
-		font-weight:$normal;
-		&:hover, &:focus{
-			background-color:$blue;
+	&.transparent{
+		&_white{
 			color:$white;
+			background-color:transparent;
+			text-align:center;
+			font-family:$base_font;
+			font-weight:$normal;
+			&:hover, &:focus{
+				// border-color:rgba(255,255,255,0.8);
+				border-color:$gold;
+				color:$gold;
+			}
+			&.hover_fill{
+				&_white{
+					&:hover, &:focus{
+						background-color:$white;
+						color:$gold;
+					}
+				}
+			}
 		}
-	}
-	&.transparent_dark_blue{
-		color:$dark_blue;
-		background-color:transparent;
-		text-align:center;
-		font-family:$base_font;
-		font-weight:$normal;
-		&:hover, &:focus{
-			background-color:$dark_blue;
-			color:$white;
+		&_black{
+			color:$black;
+			background-color:transparent;
+			text-align:center;
+			font-family:$base_font;
+			font-weight:$normal;
 		}
-	}
-	&.transparent_red{
-		color:$red;
-		background-color:transparent;
-		text-align:center;
-		font-family:$base_font;
-		font-weight:$normal;
-		&:hover, &:focus{
-			background-color:$red;
-			color:$white;
+		&_blue{
+			color:$blue;
+			background-color:transparent;
+			text-align:center;
+			font-family:$base_font;
+			font-weight:$normal;
+			&:hover, &:focus{
+				background-color:$blue;
+				color:$white;
+			}
 		}
-	}
-	&.transparent_green{
-		color:$green;
-		background-color:transparent;
-		text-align:center;
-		font-family:$base_font;
-		font-weight:$normal;
-		&:hover, &:focus{
-			background-color:$green;
-			color:$white;
-		}
-	}
-	&.transparent_pink{
-		color:$pink;
-		background-color:transparent;
-		text-align:center;
-		font-family:$base_font;
-		font-weight:$normal;
-		&:hover, &:focus{
-			background-color:$pink;
-			color:$white;
-		}
-	}
-	&.transparent_twitter_color{
-		color:$twitter_color;
-		background-color:transparent;
-		text-align:center;
-		font-family:$base_font;
-		font-weight:$normal;
-		&:hover, &:focus{
-			background-color:$twitter_color;
-			color:$white;
-		}
-	}
-	&.transparent_facebook_color{
-		color:$facebook_color;
-		background-color:transparent;
-		text-align:center;
-		font-family:$base_font;
-		font-weight:$normal;
-		&:hover, &:focus{
-			background-color:$facebook_color;
-			color:$white;
-		}
-	}
-	&.transparent_light_gray{
-		color:$light_gray;
-		background-color:transparent;
-		text-align:center;
-		font-family:$base_font;
-		font-weight:$normal;
-		&:hover, &:focus{
-			background-color:$light_gray;
+		&_dark_blue{
 			color:$dark_blue;
+			background-color:transparent;
+			text-align:center;
+			font-family:$base_font;
+			font-weight:$normal;
+			&:hover, &:focus{
+				background-color:$dark_blue;
+				color:$white;
+			}
 		}
-	}
-	&.transparent_gold{
-		color:$gold;
-		background-color:transparent;
-		text-align:center;
-		font-family:$base_font;
-		font-weight:$normal;
-		&:hover, &:focus{
-			background-color:$gold;
-			color:$white;
+		&_red{
+			color:$red;
+			background-color:transparent;
+			text-align:center;
+			font-family:$base_font;
+			font-weight:$normal;
+			&:hover, &:focus{
+				background-color:$red;
+				color:$white;
+			}
+		}
+		&_green{
+			color:$green;
+			background-color:transparent;
+			text-align:center;
+			font-family:$base_font;
+			font-weight:$normal;
+			&:hover, &:focus{
+				background-color:$green;
+				color:$white;
+			}
+		}
+		&_pink{
+			color:$pink;
+			background-color:transparent;
+			text-align:center;
+			font-family:$base_font;
+			font-weight:$normal;
+			&:hover, &:focus{
+				background-color:$pink;
+				color:$white;
+			}
+		}
+		&_twitter_color{
+			color:$twitter_color;
+			background-color:transparent;
+			text-align:center;
+			font-family:$base_font;
+			font-weight:$normal;
+			&:hover, &:focus{
+				background-color:$twitter_color;
+				color:$white;
+			}
+		}
+		&_facebook_color{
+			color:$facebook_color;
+			background-color:transparent;
+			text-align:center;
+			font-family:$base_font;
+			font-weight:$normal;
+			&:hover, &:focus{
+				background-color:$facebook_color;
+				color:$white;
+			}
+		}
+		&_light_gray{
+			color:$light_gray;
+			background-color:transparent;
+			text-align:center;
+			font-family:$base_font;
+			font-weight:$normal;
+			&:hover, &:focus{
+				background-color:$light_gray;
+				color:$dark_blue;
+			}
+		}
+		&_gold{
+			color:$gold;
+			background-color:transparent;
+			text-align:center;
+			font-family:$base_font;
+			font-weight:$normal;
+			&:hover, &:focus{
+				background-color:$gold;
+				color:$white;
+			}
+			&.nohover{
+				&:hover, &:focus{
+					background-color:transparent;
+					color:$gold;
+					font-weight:$semibold;
+				}	
+			}
 		}
 	}
 	/* other font sizes */
@@ -1002,8 +1049,8 @@ $i: 4;
 		}
 		$i: $i + 2;
 	}
-	
-	
+
+
 	/* Borders */
 	&.border{
 		border-width:1px;
@@ -1063,7 +1110,7 @@ $i: 4;
 	&.border_gold{
 		border-color:$gold;
 	}
-	
+
 	/* Other */
 	&.semibold{
 		font-weight:$semibold;
@@ -1089,7 +1136,7 @@ $i: 4;
 			color:transparent;
 		}
 	}
-	
+
 	/* Font-sizes */
 	&.size36{
 		border:none;
@@ -1417,7 +1464,7 @@ textarea.input{
 		font-weight: 900;
 		font-size:12px;
 		transition:all 0.2s;
-		
+
 	}
 	&.border_light_gray:before{
 		border-color:$light_gray;
