@@ -111,10 +111,10 @@ b, strong{
 /* Header 2 */
 
 .header_2{
-	background:#111111 url(../i/rcband.jpg) no-repeat no-repeat 50% 50%;
+	background:#111111 url(../i/rcband_easter.jpg) no-repeat no-repeat 50% 50%;
 	background-size:cover;
 	@media#{$retina}{
-		background-image:url(../i/rcband@2x.jpg);
+		background-image:url(../i/rcband_easter@2x.jpg);
 	}
 	.form2{
 		input{
